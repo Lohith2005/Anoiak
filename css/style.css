@@ -55,16 +55,21 @@ body {
 }
 
 .navbar {
+  position: relative;  /* or absolute, depending on your layout */
   width: 100%;
+  max-width: 1400px;
+  top: 0;
+  left: 0;
+  right: 0;
   height: 60px;
-  /* max-width: 1400px; */
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #000;
-  z-index: 400;
+  z-index: 400; /* Optional: to make navbar visible */
 }
+
 
 /* .navbar a{
   font-size: 15px;
